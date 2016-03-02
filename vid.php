@@ -106,9 +106,11 @@ else
 <table id="valasz3"><tr><td style="vertical-align:middle"><?=$valaszok[2]?></td></tr></table>
 <table id="valasz4"><tr><td style="vertical-align:middle"><?=$valaszok[3]?></td></tr></table>
 
-<video width="482" height="266" autoplay>
+
+<video width="482" height="266">
 	<source src="<?=$video_url?>" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></source>
 </video>
+
 
 <div class="load"><img src="img/load.gif"/></div>
 
