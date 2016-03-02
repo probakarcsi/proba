@@ -52,6 +52,6 @@ $usernev = $fbme["last_name"]." ".$fbme["first_name"];
 </head>
 
 <body class="kezdo">
-    <a href="jatek.php?<?=time()?>"></a>
+    <a href="jatek.php"></a>
 </body>
 </html>
