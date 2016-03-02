@@ -137,10 +137,10 @@ var szamlalo = 0;
 function timeUpdate(){
 	var eltelt_ido = Math.floor(video.currentTime - <?=$start?>);
 
-	szamlalo = 60 - eltelt_ido;
+	szamlalo = 30 - eltelt_ido;
 	$('#ido', window.parent.document).html(szamlalo);
 
-	if (szamlalo == 59) {
+	if (szamlalo == 29) {
         $("table").fadeIn();
 		$('.load').hide();
     }
